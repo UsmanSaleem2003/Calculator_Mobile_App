@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -8,6 +9,7 @@
     android:gravity="bottom"
     android:orientation="vertical"
     tools:context=".MainActivity2">
+
 
 
     <LinearLayout
@@ -22,12 +24,12 @@
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginStart="13dp"
             android:layout_marginEnd="3dp"
             android:layout_weight="0.25"
             android:background="@null"
-            android:contentDescription="back_button_desc"
+            android:contentDescription="@string/back_button_desc"
             android:scaleType="centerInside"
             android:src="@drawable/menu_24"
             tools:ignore="NestedWeights" />
@@ -37,7 +39,7 @@
             android:layout_height="40dp"
             android:layout_weight="0.50"
             android:letterSpacing="0.03"
-            android:text="Standard"
+            android:text="@string/standard"
             android:textColor="@color/black"
             android:textSize="30sp"
             tools:ignore="TextSizeCheck" />
@@ -45,26 +47,26 @@
         <ImageButton
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginEnd="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.25"
             android:background="@null"
-            android:contentDescription="back_button_desc"
+            android:contentDescription="@string/back_button_desc"
             android:scaleType="centerInside"
             android:src="@drawable/open_in_new_24" />
 
         <ImageButton
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginEnd="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="0.5"
             android:background="@null"
-            android:contentDescription="back_button_desc"
+            android:contentDescription="@string/back_button_desc"
             android:paddingEnd="10dp"
             android:scaleType="fitEnd"
             android:src="@drawable/history_24"
@@ -75,7 +77,7 @@
         android:id="@+id/TextViewerLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="3dp"
+        android:layout_marginHorizontal="6dp"
         android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
@@ -86,11 +88,11 @@
             android:ellipsize="none"
             android:focusable="true"
             android:gravity="center|end"
-            android:paddingLeft="10dp"
-            android:paddingRight="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
             android:scrollHorizontally="true"
             android:singleLine="true"
-            android:text="0"
+            android:text="@string/Screen_TextView_DefaultText"
             android:textAlignment="viewEnd"
             android:textColor="@color/black"
             android:textSize="45sp" />
@@ -107,13 +109,13 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:text="MC"
+            android:text="@string/mc"
             android:textAlignment="center"
             android:textColor="@color/greyish_text"
             android:textSize="15sp" />
@@ -121,13 +123,13 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:text="MR"
+            android:text="@string/mr"
             android:textAlignment="center"
             android:textColor="@color/greyish_text"
             android:textSize="15sp" />
@@ -135,13 +137,13 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:text="M+"
+            android:text="@string/m"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -149,13 +151,13 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:text="M-"
+            android:text="@string/m_"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -163,13 +165,13 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:text="MS"
+            android:text="@string/ms"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -177,14 +179,14 @@
         <Button
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"
             android:layout_weight="1"
-            android:contentDescription="back_button_desc"
+            android:contentDescription="@string/back_button_desc"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:text="M"
+            android:text="@string/m_simple"
             android:textAlignment="center"
             android:textColor="@color/greyish_text"
             android:textSize="15sp" />
@@ -209,48 +211,44 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="%"
+                android:text="@string/percentage_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="CE"
+                android:text="@string/ce"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="C"
+                android:text="@string/c"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <ImageButton
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:contentDescription="back_button_desc"
+                android:contentDescription="@string/back_button_desc2"
                 android:scaleType="centerInside"
                 android:src="@drawable/ic_back_arrow" />
 
@@ -267,13 +265,11 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="3dp"
-                android:layout_marginRight="3dp"
-                android:layout_weight="1"
+                android:layout_marginStart="3dp"
                 android:background="@drawable/button_background_2"
-                android:text="1/x"
+                android:text="@string/_1_x"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
@@ -281,12 +277,11 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="x^2"
+                android:text="@string/x_2"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
@@ -294,12 +289,11 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="sqrt (x)"
+                android:text="@string/sqrt_x"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
@@ -307,12 +301,11 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="/"
+                android:text="@string/division_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -329,49 +322,44 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="3dp"
-                android:layout_marginRight="3dp"
-                android:layout_weight="1"
+                android:layout_marginStart="3dp"
                 android:background="@drawable/button_background"
-                android:text="7"
+                android:text="@string/_7"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="8"
+                android:text="@string/_8"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="9"
+                android:text="@string/_9"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="*"
+                android:text="@string/multiply_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -389,49 +377,45 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="4"
+                android:text="@string/_4"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="5"
+                android:text="@string/_5"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="6"
+                android:text="@string/_6"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="-"
+                android:text="@string/subtract_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -449,49 +433,45 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="1"
+                android:text="@string/_1"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="2"
+                android:text="@string/_2"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="3"
+                android:text="@string/_3"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background_2"
-                android:text="+"
+                android:text="@string/addition_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -510,50 +490,46 @@
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="+/-"
+                android:text="@string/_AdditionAndSubtraction_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="0"
+                android:text="@string/_0"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
-                android:text="."
+                android:text="@string/decimal_btn"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <Button
                 style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="0dp"
+                android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
-                android:layout_weight="1"
                 android:background="@drawable/button_background"
                 android:backgroundTint="@color/custom_color_for_equal"
-                android:text="="
+                android:text="@string/equalsTo_btn"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />

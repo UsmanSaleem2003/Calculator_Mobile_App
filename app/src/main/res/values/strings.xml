@@ -34,4 +34,5 @@
     <string name="equalsTo_btn">=</string>
     <string name="standard">Standard</string>
     <string name="Screen_TextView_DefaultText">0</string>
+    <string name="error">Error</string>
 </resources>

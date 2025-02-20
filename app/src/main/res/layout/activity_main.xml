@@ -82,6 +82,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/displayTextView"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:background="@drawable/text_view_style1"
@@ -210,6 +211,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_percent"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -222,6 +224,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_ce"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -233,6 +236,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_c"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -244,6 +248,7 @@
                 android:textSize="20sp" />
 
             <ImageButton
+                android:id="@+id/btn_back"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_marginEnd="3dp"
@@ -264,6 +269,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_reciprocal"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -276,6 +282,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_square"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -288,6 +295,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_sqrt"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -300,6 +308,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_divide"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -321,6 +330,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_7"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -332,6 +342,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_8"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -343,6 +354,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_9"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -354,6 +366,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_multiply"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -376,6 +389,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_4"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -388,6 +402,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_5"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -399,6 +414,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_6"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -410,6 +426,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_subtract"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -432,6 +449,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_1"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -444,6 +462,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_2"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -455,6 +474,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_3"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -466,6 +486,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_add"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -489,6 +510,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/btn_sign"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -501,6 +523,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_0"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -512,6 +535,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_decimal"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
@@ -523,6 +547,7 @@
                 android:textSize="20sp" />
 
             <Button
+                android:id="@+id/btn_equals"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
